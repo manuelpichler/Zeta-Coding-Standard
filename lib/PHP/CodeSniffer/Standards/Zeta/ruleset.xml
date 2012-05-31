@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ruleset name="Zeta">
+    <description>Zeta components coding standard.</description>
+
+    <rule ref="PEAR">
+        <exclude name="Generic.Formatting.MultipleStatementAlignment" />
+        <exclude name="Generic.Files.LineLength" />
+        <exclude name="PEAR.NamingConventions.ValidClassName" />
+        <exclude name="PEAR.NamingConventions.ValidFunctionName" />
+        <exclude name="PEAR.NamingConventions.ValidVariableName" />
+        <exclude name="PEAR.ControlStructures.ControlSignature" />
+        <exclude name="PEAR.ControlStructures.MultiLineCondition" />
+        <exclude name="PEAR.Functions.FunctionCallSignature" />
+        <exclude name="PEAR.Commenting.FileComment" />
+        <exclude name="PEAR.Commenting.ClassComment" />
+        <exclude name="PEAR.Commenting.FunctionComment" />
+        <exclude name="PEAR.WhiteSpace.ScopeClosingBrace" />
+        <exclude name="PEAR.WhiteSpace.ScopeIndent" />
+    </rule>
+
+    <!-- Use Unix newlines -->
+    <rule ref="Generic.Files.LineEndings">
+        <properties>
+            <property name="eolChar" value="\n"/>
+        </properties>
+    </rule>
+
+</ruleset>
